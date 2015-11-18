@@ -48,6 +48,10 @@ form {
   padding-left: 5%;
 }
 
+input {
+  margin-top: 3%;
+}
+
 footer {
   background: #eee;
   text-align: center;

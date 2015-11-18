@@ -4,6 +4,5 @@
 <li><%- "Pregunta " + (i+1) + ": " + link_to(prg[i], 'questions/'+(i+1)) %></li>
 <% } %>
 </ul>﻿
-  <a href="/"> <button type="button" class="btn btn-primary btn-sm"> Volver a inicio </button></a>
-
+<a href="/">Volver a inicio</a>
 

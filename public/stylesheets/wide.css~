@@ -7,8 +7,12 @@ body {
   content: "Wide Layout";
 }
 
+span {
+  margin: 0px 100px 0px 0px;
+}
 
 section{
+  float: right;
   width: 80%;
   height: 200px;
 }

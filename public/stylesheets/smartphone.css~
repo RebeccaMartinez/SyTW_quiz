@@ -6,7 +6,7 @@ body {
   content: "Smartphone Layout";
 }
 
-h2, section h3 {
+h2, span, section h3 {
   display: none;
 }
 
