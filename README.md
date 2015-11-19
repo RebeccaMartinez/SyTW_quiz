@@ -1,23 +1,13 @@
-# Quiz. Generación, Favicon, Layouts, Controladores, Modelos
+# Quiz. Generación, Favicon, Layouts, Controladores, Modelos, Diseño adaptativo, Despliegue en Heroku, Mejoras
 
-En esta práctica se ha construido un quiz utilizando node y express.
+En Esta práctica se ha construido un quiz utilizando node y express. Se ha creado una página donde un usuario puede 
+responder a distintas pregunatas que se formulan aleatoriamente.
 
 
 El tutorial utilizado para realizar la práctica ha sido el siguiente: [Tutorial](https://github.com/crguezl/miriada-upm-dsnh5jsnode#m%C3%B3dulo-vi-el-proyecto-quiz-y-mvc)
 
-## Ejecución
+## Enlaces
 
-Para ejecutarlo en tu ordenador solo hay que seguir estos sencillos pasos:
-
-```
-git clone git@github.com:RebeccaMartinez/quiz.git
-```
-
-```
-npm install
-```
-
-```
-npm start
-```
+* Enlace a heroku: [Heroku](https://sytw-quiz2.herokuapp.com/)
+* Enlace a mi github page: [Rebecca](http://rebeccamartinez.github.io/)
 
