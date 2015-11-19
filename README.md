@@ -1,4 +1,4 @@
-# Quiz. Generación, Favicon, Layouts, Controladores, Modelos, Diseño adaptativo, Despliegue en Heroku, Mejoras
+# Quiz. Diseño adaptativo, Despliegue en Heroku, Mejoras
 
 En Esta práctica se ha construido un quiz utilizando node y express. Se ha creado una página donde un usuario puede 
 responder a distintas pregunatas que se formulan aleatoriamente.
