@@ -1,7 +1,10 @@
 # Quiz. Diseño adaptativo, Despliegue en Heroku, Mejoras
 
-En Esta práctica se ha construido un quiz utilizando node y express. Se ha creado una página donde un usuario puede 
+En esta práctica se ha construido un quiz utilizando node y express. Se ha creado una página donde un usuario puede 
 responder a distintas pregunatas que se formulan aleatoriamente.
+
+
+La página se ha subido a heroku y se ha hecho adaptable a móviles.
 
 
 El tutorial utilizado para realizar la práctica ha sido el siguiente: [Tutorial](https://github.com/crguezl/miriada-upm-dsnh5jsnode#m%C3%B3dulo-vi-el-proyecto-quiz-y-mvc)
