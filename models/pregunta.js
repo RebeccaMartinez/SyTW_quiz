@@ -1,6 +1,6 @@
 function Pregunta(preg){
   this.preg = preg;
-  this.tipo = tipo;
+  this.tipo;
 }
 
 module.exports = Pregunta;

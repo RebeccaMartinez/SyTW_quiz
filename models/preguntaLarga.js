@@ -1,3 +1,5 @@
+var Pregunta = require('../models/pregunta.js');
+
 function PreguntaLarga(preg){
   Pregunta.call(this, preg);
   tipo = "larga";

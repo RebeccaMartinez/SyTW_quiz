@@ -1,3 +1,5 @@
+var Pregunta = require('../models/pregunta.js');
+
 function PreguntaCorta(preg){
   Pregunta.call(this, preg);
   this.tipo = "corta";
