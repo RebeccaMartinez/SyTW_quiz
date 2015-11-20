@@ -7,9 +7,7 @@ function Respuesta(res){
     return function(x){return (this.res).exec(x);};
   }
   else {
-    return function(x){
-      
-    };
+    return res;
   }
 }
 
