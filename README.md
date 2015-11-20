@@ -11,6 +11,6 @@ El tutorial utilizado para realizar la práctica ha sido el siguiente: [Tutorial
 
 ## Enlaces
 
-* Enlace a heroku: [Heroku](https://sytw-quiz2.herokuapp.com/)
+* Enlace a heroku: [Heroku](http://sytw-quiz2.herokuapp.com/)
 * Enlace a mi github page: [Rebecca](http://rebeccamartinez.github.io/)
 
