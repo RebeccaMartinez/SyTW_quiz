@@ -4,7 +4,7 @@ function Respuesta(res){
     return function(x){return x === this.res;};  
   }
   else if (this.res instanceof RegExp) {
-    return function(x){return (this.res).exec(x);};
+    return function(x){return x.match(res);};
   }
   else {
     return res;
