@@ -54,6 +54,13 @@ for(var i = 0; i<3;i++) {
 debug(this.q);
 }
 
+Quiz.prototype.getQ = function (index) {
+  return this.q[index];
+}
+
+Quiz.prototype.numQuestions = function() {
+	return this.q.length;
+}
 
 Quiz.prototype = new AbstractQuiz();
 Quiz.prototype.constructor = Quiz;
