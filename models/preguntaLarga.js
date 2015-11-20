@@ -2,15 +2,7 @@ var Pregunta = require('../models/pregunta.js');
 
 function PreguntaLarga(preg){
   Pregunta.call(this, preg);
-  tipo = "larga";
-}
-
-PreguntaLarga.prototype.getTipo = function(){
-  return this.tipo;
-}
-
-PreguntaLarga.prototype.getPreg = function(){
-  return this.preg;
+  this.vista = "<textarea type='text' name='respuesta' rows='5' cols='50' placeholder='Responda aquí' autofocus=''></textarea>";
 }
 
 PreguntaLarga.prototype = new Pregunta();

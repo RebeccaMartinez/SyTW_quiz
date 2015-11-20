@@ -58,17 +58,5 @@ debug(this.q);
 Quiz.prototype = new AbstractQuiz();
 Quiz.prototype.constructor = Quiz;
 
-Quiz.prototype.numQuestions = function() {
-	return this.q.length;
-}
-
-Quiz.prototype.getQ = function(x){
-	return this.q[x]['pregunta'];
-}
-/*funcion que nos indica si se trata de una pregunta corta o una pregunta larga*/
-Quiz.prototype.getT = function(x){
-  return this.q[x]['pregunta'].getTipo;
-}
-
 
 module.exports = Quiz;
