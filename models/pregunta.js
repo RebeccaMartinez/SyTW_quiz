@@ -11,19 +11,15 @@ Pregunta.prototype.getPreg = function(){
   return this.preg;
 }
 
-Pregunta.prototype.Tipo = function() {
+/*Pregunta.prototype.Tipo = function() {
   if(this instanceof PreguntaCorta){
     this.vista = "<input type='text' name='respuesta' placeholder='Responda aquí' autofocus=''>";
   }
-  else if (this instanceof PreguntaLarga) {
+  else {
     this.vista = "<textarea type='text' name='respuesta' rows='5' cols='50' placeholder='Responda aquí' autofocus=''></textarea>";
   }
-  else if(this instanceof PSeleccionSimple){
-  }
-  else{
-    
-  }
-}
+
+}*/
 
 module.exports = Pregunta;
 

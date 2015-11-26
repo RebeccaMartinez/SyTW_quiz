@@ -1,19 +1,23 @@
 var AbstractQuiz = require('../models/abstract_quiz_model.js');
+var PSeleccionMultiple = require('../models/PSeleccionMultiple.js');
 var PreguntaCorta = require('../models/preguntaCorta.js');
 var PreguntaLarga = require('../models/preguntaLarga.js');
 var Respuesta = require('../models/respuesta.js');
+var PSeleccionSimple = require('../models/PSeleccionSimple.js');
+
 var debug = require('debug');
 
 
 function Quiz() {
 	AbstractQuiz.call(this);
 	this.q.push(
-		{ pregunta: new PreguntaCorta('¿Capital de Italia?'),
-		respuesta: new Respuesta(/^\s*roma\s*$/i)
+		{
+		  pregunta: new PreguntaCorta('¿Capital de Alemania?'),
+		  respuesta: new Respuesta('Berlin')
 		},
 		{
-		pregunta: new PreguntaCorta('¿Capital de Alemania?'),
-		respuesta: new Respuesta(/^\s*berlin\s*$/i)
+		  pregunta: new PSeleccionMultiple('¿Capital de Italia?', ['Madrid', 'Atenas', 'Roma']),
+		  respuesta: new Respuesta('Roma')
 		},
 		{ /* Código inseguro. ¡No ejecute esta pregunta salvo en un
 		entorno en el que el código del "alumno" sea fiable!
