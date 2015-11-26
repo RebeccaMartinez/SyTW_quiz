@@ -15,7 +15,7 @@ Pregunta.prototype.Tipo = function() {
   if(this instanceof PreguntaCorta){
     this.vista = "<input type='text' name='respuesta' placeholder='Responda aquí' autofocus=''>";
   }
-  else {
+  else if (this instanceof preguntaLarga) {
     this.vista = "<textarea type='text' name='respuesta' rows='5' cols='50' placeholder='Responda aquí' autofocus=''></textarea>";
   }
 }
