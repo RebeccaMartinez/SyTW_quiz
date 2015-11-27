@@ -13,7 +13,7 @@ function PSeleccionSimple(preg, opciones){
 
 PSeleccionSimple.prototype = new Pregunta();
 PSeleccionSimple.prototype.constructor = PSeleccionSimple;
-module.exports.PSeleccionSimple;
+module.exports = PSeleccionSimple;
 
 
 

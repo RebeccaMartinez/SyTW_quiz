@@ -18,4 +18,4 @@ function PSeleccionMultiple(preg, opciones){
 
 PSeleccionMultiple.prototype = new Pregunta();
 PSeleccionMultiple.prototype.constructor = PSeleccionMultiple;
-module.exports.PSeleccionMultiple;
+module.exports = PSeleccionMultiple;
