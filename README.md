@@ -1,7 +1,7 @@
 # Quiz. Diseño adaptativo, Despliegue en Heroku, Mejoras
 
 En esta práctica se ha construido un quiz utilizando node y express. Se ha creado una página donde un usuario puede 
-responder a distintas pregunatas que se formulan aleatoriamente. Para ello se ha creado una clase pregunta de la que heredan PreguntaCorta y PreguntaLarga. Una pregunta larga tiene un textarea para responder, mientras que una pregunta corta tiene un text input ya que se necesita menos espacio. Además se ha creado una clase Respuesta, que distingue entre los tipos de respuesta que puede dar el usuario. 
+responder a distintas pregunatas que se formulan aleatoriamente. Para ello se ha creado una clase pregunta de la que heredan PreguntaCorta, PreguntaLarga, PSeleccionSimple y PSeleccionMultiple. Una pregunta larga tiene un textarea para responder, mientras que una pregunta corta tiene un text input ya que se necesita menos espacio. Una preguna simple tiene un elemento radio y una pregunta múltiple un checkbox. Además se ha creado una clase Respuesta, que distingue entre los tipos de respuesta que puede dar el usuario. 
 
 
 La página se ha subido a heroku y se ha hecho adaptable a móviles. 
