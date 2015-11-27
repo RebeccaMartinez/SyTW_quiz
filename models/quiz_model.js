@@ -13,11 +13,11 @@ function Quiz() {
 	this.q.push(
 		{
 		  pregunta: new PSeleccionMultiple('¿Capital de Alemania?', ['Madrid', 'Berlin', 'Roma']),
-		  respuesta: new Respuesta('Berlin')
+		  respuesta: new Respuesta(['Berlin'])
 		},
 		{
 		  pregunta: new PSeleccionSimple('¿Capital de Italia?', ['Madrid', 'Atenas', 'Roma']),
-		  respuesta: new Respuesta('Roma')
+		  respuesta: new Respuesta(/^\s*roma\s*$/i)
 		},
 		{ /* Código inseguro. ¡No ejecute esta pregunta salvo en un
 		entorno en el que el código del "alumno" sea fiable!

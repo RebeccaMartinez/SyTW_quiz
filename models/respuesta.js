@@ -8,10 +8,14 @@ function Respuesta(res){
   }
   else if(this.res instanceof Array){
     return function(x){
-      if(this.res.length != x.length) return false;
+      if(res.length != x.length) {
+	return false;
+      }
       var opc = true;
-      for(var i=0; i<this.res.length; i++){
-	if(this.res[i] != x[i]) opc = false;
+      for(var i=0; i<res.length; i++){
+	if(res[i] != x[i]) {
+	  opc = false;
+	}
       }
       return opc;
   };

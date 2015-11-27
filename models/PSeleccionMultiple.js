@@ -5,7 +5,7 @@ function PSeleccionMultiple(preg, opciones){
   //this.opciones = preg.slice(1,preg.length);
   Pregunta.call(this,preg);
   this.opciones = opciones;
-  var aux = [];
+  this.vista = "";
   for(var i=0; i<this.opciones.length; i++){
     this.vista += "<input type='checkbox' name='respuesta[]' + value='" + this.opciones[i] +"'>" + this.opciones[i]+"<br>";
   }
