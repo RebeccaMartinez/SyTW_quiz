@@ -16,7 +16,7 @@ function Quiz() {
 		  respuesta: new Respuesta('Berlin')
 		},
 		{
-		  pregunta: new PSeleccionMultiple('¿Capital de Italia?', ['Madrid', 'Atenas', 'Roma']),
+		  pregunta: new PSeleccionSimple('¿Capital de Italia?', ['Madrid', 'Atenas', 'Roma']),
 		  respuesta: new Respuesta('Roma')
 		},
 		{ /* Código inseguro. ¡No ejecute esta pregunta salvo en un
