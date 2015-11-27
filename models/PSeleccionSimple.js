@@ -1,13 +1,18 @@
 var Pregunta = require('../models/pregunta.js');
+var ejs=  require('ejs');
 
 function PSeleccionSimple(preg, opciones){
   Pregunta.call(this, preg);
   this.opciones = opciones;
-  this.vista = "";
-  var aux = [];
-  for(var i=0; i<opciones.length; i++){
-    this.vista += "<input type='radio' name='respuesta' + value='" + this.opciones[i] +"'>" + this.opciones[i]+"<br>";
-  }
+  
+  var self=this;
+   
+  ejs.renderFile('views/quizes/PSeleccionSimple.ejs',{opciones: this.opciones},
+  function(err,result){
+    if(!err) {
+      self.vista=result;
+    }
+  });
 }
 
 PSeleccionSimple.prototype = new Pregunta();
