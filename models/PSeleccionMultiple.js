@@ -7,12 +7,8 @@ function PSeleccionMultiple(preg, opciones){
   this.opciones = opciones;
   var aux = [];
   for(var i=0; i<this.opciones.length; i++){
-    aux[i] = "<option>" + this.opciones[i] + "</option>" 
+    this.vista += "<input type='checkbox' name='respuesta[]' + value='" + this.opciones[i] +"'>" + this.opciones[i]+"<br>";
   }
-  aux.unshift("<select name='respuesta[]' size=" + this.opciones.length + " multiple>");
-  aux.push("</select>");
-
-  this.vista = aux;
 }
 
 PSeleccionMultiple.prototype = new Pregunta();

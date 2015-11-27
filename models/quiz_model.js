@@ -12,7 +12,7 @@ function Quiz() {
 	AbstractQuiz.call(this);
 	this.q.push(
 		{
-		  pregunta: new PreguntaCorta('¿Capital de Alemania?'),
+		  pregunta: new PSeleccionMultiple('¿Capital de Alemania?', ['Madrid', 'Berlin', 'Roma']),
 		  respuesta: new Respuesta('Berlin')
 		},
 		{
